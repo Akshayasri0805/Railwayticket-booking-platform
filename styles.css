@@ -1,0 +1,227 @@
+body {
+    overflow-x: hidden;
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+.bg-img{
+    height:80vh;
+    width:100vw;
+    object-fit: cover;
+    filter:brightness(0.6);
+    position:absolute;
+    top:0;
+    z-index:-1
+}   
+
+.herocontent{
+      color: white;
+      text-align: center;
+      justify-content: center;
+      display: block;
+      margin-top: 180px;
+     
+} 
+
+.herocontent>h1{
+    font-family: Georgia, serif;
+    font-size: 46px;  
+}
+.herocontent>p{
+    text-wrap: wrap;
+    text-align: inherit;
+    font-size: 18px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: Verdana, sans-serif;
+}
+.btn-orange {
+    background-color:darkorange;  
+    color: white;              
+    border: none;              
+}
+
+.btn-orange:hover {
+    background-color: orange; 
+}
+
+
+.destination{
+    color: black;
+    justify-content: center;
+    margin-top: 180px;
+    text-align: center;
+}
+
+
+
+/* Cards container */
+.cards {
+    display: flex;
+    gap: 20px;                   
+    overflow-x: auto;            
+    scroll-behavior: smooth;     
+    padding: 20px;
+    width: 100%;                  
+}
+
+/* Individual card styling */
+.card1 {
+    flex: 0 0 auto;              
+    background-color: #fff;      
+    border: 1px solid #ccc;      
+    border-radius: 8px;          
+    text-align: center;          
+    width: 150px;
+    animation: scroll 10s linear infinite;
+               
+}
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%); 
+    }
+}
+
+
+
+
+/* Image styling inside the cards */
+.card1 img {
+    width: 100%;                 /* Full width for images */
+    height: 120px;               /* Fixed height for images */
+    object-fit: contain;         /* Ensure images maintain their aspect ratio */
+}
+
+/* Heading for the cards */
+.card1 h3 {
+    margin: 10px;              /* Margin for spacing */
+    font-size: 18px;             /* Font size for the titles */
+    color: #333;                 /* Color for the titles */
+}
+
+
+.cards::-webkit-scrollbar {
+    display: none;
+}
+
+.destination{
+    color: black;
+    justify-content: center;
+    margin-top: 180px;
+    text-align: center;
+}
+
+.destination{
+    color: black;
+    justify-content: center;
+    margin-top: 180px;
+    text-align: center;
+}
+
+.trains{
+    color: black;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.cardssection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.offers{
+    color: black;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.container1>img{
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-left: 0%;
+  }
+  .container1>p{
+    text-align: right;
+    padding: 100px;
+    flex-wrap: wrap;
+  }
+
+  .container2>img{
+    height: 300px;
+    width: 300px;
+    float: right;
+    margin-right: 0%;
+  }
+  .container2>p{
+    text-align: left;
+    padding: 100px;
+    flex-wrap: wrap;
+  }
+  
+  footer {
+    background-color: #1c2331;
+    color: white;
+    width: 100vw; /* Make sure the footer spans full width */
+
+  }
+  
+  footer section {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  footer .container {
+    max-width: 100%; /* Ensure container is full width */
+    padding: 0 50px; /* Add padding to ensure space from edges */
+  }
+  
+  footer .row {
+    display: flex;
+    justify-content: space-between; /* Space columns evenly */
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  footer .col-md-3, .col-md-2, .col-md-4 {
+    flex: 1; /* Make columns responsive */
+    padding: 20px;
+    min-width: 200px; /* Ensure the columns do not shrink too much */
+  }
+  
+  footer hr {
+    border: none;
+    height: 2px;
+    background-color: #7c4dff;
+    width: 60px;
+  }
+  
+  footer .d-flex {
+    justify-content: space-between;
+  }
+  
+  footer .fab {
+    margin-right: 15px;
+    font-size: 1.5rem;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #7c4dff; /* Hover effect */
+  }
+  
